@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='http://rss.nytimes.com/xsl/eng/rss.xsl'?>
+<rss 
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/" 
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:atom="http://www.w3.org/2005/Atom" 
+	xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+	<channel>
+		<atom:link href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" rel="self" 
+			type="application/rss+xml" />
+		<title>NYT &gt; Home Page</title>
+		<link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+		<description>HomePage</description>
+		<language>en-us</language>
+		<copyright>Copyright 2013 The New York Times Company</copyright>
+		<pubDate>Wed, 27 Mar 2013 20:42:38 GMT</pubDate>
+		<lastBuildDate>Wed, 27 Mar 2013 20:42:38 GMT</lastBuildDate>
+		<ttl>2</ttl>
+		<image>
+			<title>NYT &gt; Home Page</title>
+			<url>http://graphics8.nytimes.com/images/misc/NYT_logo_rss_250x40.png</url>
+			<link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+		</image>
+		<item>
+			<title>Cyprus Sets Up Tight Controls as Banks Prepare to Reopen</title>
+			<link>http://www.nytimes.com/2013/03/28/business/global/tensions-escalate-in-cyprus-as-banks-prepare-to-reopen.html?partner=rss&amp;emc=rss</link>
+			<description>Cyprus announced severe restrictions on access to bank accounts Wednesday, hoping to curb what is likely to be a rush to withdraw money.&lt;
+				img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640350/s/2a0f9416/mf.gif' border='0'/&gt;&lt;
+				br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161990724815/u/192/f/640350/c/34625/s/2a0f9416/a2.htm"&gt;&lt;
+				img src="http://da.feedsportal.com/r/161990724815/u/192/f/640350/c/34625/s/2a0f9416/a2.img" border="0"/&gt;&lt;/a&gt;&lt;
+				img width="1" height="1" src="http://pi.feedsportal.com/r/161990724815/u/192/f/640350/c/34625/s/2a0f9416/a2t.img" border="0"/&gt;
+			</description>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cyprus</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">European Sovereign Debt Crisis (2010- )</category>
+			<pubDate>Wed, 27 Mar 2013 20:38:08 GMT</pubDate>
+			<guid isPermaLink="false">http://www.nytimes.com/2013/03/28/business/global/tensions-escalate-in-cyprus-as-banks-prepare-to-reopen.html</guid>
+			<dc:creator>By LIZ ALDERMAN</dc:creator>
+			<media:credit scheme="urn:ebu">Milos Bicanski/Getty Images</media:credit>
+			<media:description>A man sat in front of an automated teller machine outside the National Bank of Cyprus, which has been closed for two weeks, on Wednesday in Nicosia.</media:description>
+			<media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/28/world/europe/28iht-cyprus28/28iht-cyprus28-moth.jpg" />
+		</item>
+		<item>
+			<item>....</item>
+		</item>
