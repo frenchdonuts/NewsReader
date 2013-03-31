@@ -7,7 +7,9 @@ public class Article {
 	public String description;
 	
 	public Article(String title, String url, String description) {
-		
+		this.title = title;
+		this.url = url;
+		this.description = description;
 	}
 	
 	@Override

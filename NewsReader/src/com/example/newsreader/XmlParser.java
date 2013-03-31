@@ -85,9 +85,9 @@ public class XmlParser {
 	private Article readItem(XmlPullParser parser) throws XmlPullParserException, IOException {
 		// See if current tag is a <item>. Throw exception if it isn't
 		parser.require(XmlPullParser.START_TAG, ns, "item");
-		String title = null;
-		String url = null;
-		String description = null;
+		String title = "N/A";
+		String url = "N/A";
+		String description = "N/A";
 		
 		// Loop until you reach </item>
 		while(parser.next() != XmlPullParser.END_TAG) {
@@ -98,14 +98,18 @@ public class XmlParser {
 			String name = parser.getName();
 			if(name.equals("title")) {
 				title = readTitle(parser);
+
 			} else if(name.equals("link")) {
 				url = readUrl(parser);
+
 			} else if(name.equals("description")) {
 				description = readDescription(parser);
+				
 			} else {
 				skip(parser);
 			}
-		}		
+		}
+
 		return new Article(title, url, description);
 	}
 	
@@ -130,7 +134,7 @@ public class XmlParser {
 	// Read <description>...</description> entries
 	private String readDescription(XmlPullParser parser) throws XmlPullParserException, IOException {
 		parser.require(XmlPullParser.START_TAG, ns, "description");
-		String description = readText(parser).split("&lt", 2)[0];
+		String description = readText(parser).split("<", 2)[0];
 		parser.require(XmlPullParser.END_TAG, ns, "description");
 		return description;
 	}
